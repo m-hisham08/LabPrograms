@@ -13,17 +13,17 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="content">
-                <ul className="navbar-nav me-auto mb-4 mb-lg-0">
+                <ul className="navbar-nav me-auto mb-0 mb-lg-0">
                     <li className="nav-item">
-                        <a className="nav-link active" href="#">HOME</a>
+                        <a className="nav-link active" href="/">HOME</a>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href="#">SEMESTER3</a>
+                        <a className="nav-link" href="/SemesterThree">SEMESTER3</a>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link disabled" href="#">SEMESTER4</a>
+                        <a className="nav-link" href="SemesterFour">SEMESTER4</a>
                     </li>
 
                     <li className="nav-item">
